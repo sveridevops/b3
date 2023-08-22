@@ -1,0 +1,33 @@
+sudo apt-get update
+sudo apt-get install git
+
+mkdir projectb3
+cd projectb3
+
+
+git init
+git config --global user.name "first and last name"
+git config --global user.email "email id"
+
+created the project files
+git status
+git add .
+git status
+git commit -m "commit message"
+
+
+------
+
+Remote Repository : GitHub
+Registered new account with proper username
+created the repository
+created the clasic token with all permission
+copied the token to safe place
+copied the repo address https://github.com/sveridevops/b3.git
+
+
+git remote add b3 https://github.com/sveridevops/b3.git
+
+git push b3 master
+
+
